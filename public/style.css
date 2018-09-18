@@ -1,0 +1,145 @@
+/*Creating our own CSS Style Sheeet for the project*/
+
+/*Styles that apply to the entire page*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(250, 250, 250, 1);
+  color: #4d5256;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+  background-image: url("assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.jumbotron p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.jumbotron p a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: brown;
+  color: #ffffff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 0;
+  margin-top: 18px;
+  position: relative;
+  top: 150px;
+}
+
+.container h1 {
+  margin-top: 20px;
+  padding-top: 50px;
+}
+
+/*CONTENT*/
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+  margin-bottom: 28px;
+}
+
+hr {
+  background-color: #6dd3d0;
+  height: 2px;
+  max-width: 100px;
+  margin-bottom: 40px;
+}
+
+/*ARTICLES*/
+
+article {
+  background-color: beige;
+  padding: 20px;
+  margin-bottom: 40px;
+  border: 1px solid brown;
+}
+article .images {
+  padding: 0;
+  max-width: 250px;
+}
+
+article .text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: brown;
+}
+
+article .text p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #4d5256;
+}
+
+article .text p a {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #e7283a;
+}
+
+.currentNote {
+  background-color: #4d5256;
+  padding: 20px;
+  margin: 0 -15px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.currentNote p {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+
+.currentNote h2 {
+  font-size: 18px;
+  font-weight: 100;
+  color: #6dd3d0;
+  font-style: italic;
+}
+
+.currentNote > #titleinput {
+  min-width: 90%;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.currentNote > #bodyinput {
+  min-width: 90%;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.currentNote button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #6dd3d0;
+  color: #ffffff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 0;
+  margin-top: 18px;
+}
